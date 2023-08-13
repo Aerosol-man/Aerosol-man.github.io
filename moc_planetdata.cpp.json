@@ -1,0 +1,173 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "PlanetData",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "getMax",
+                    "returnType": "qreal"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "member": "_masses",
+                    "name": "masses",
+                    "notify": "massesChanged",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QList<qreal>",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "member": "_distances",
+                    "name": "distances",
+                    "notify": "distancesChanged",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QList<qreal>",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "member": "_radii",
+                    "name": "radii",
+                    "notify": "radiiChanged",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QList<qreal>",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "member": "_rotationalPeriods",
+                    "name": "rotationalPeriods",
+                    "notify": "rotationalPeriodsChanged",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QList<qreal>",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "member": "_orbitalPeriods",
+                    "name": "orbitalPeriods",
+                    "notify": "orbitalPeriodsChanged",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QList<qreal>",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "member": "_eccentricities",
+                    "name": "eccentricities",
+                    "notify": "eccentricitiesChanged",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QList<qreal>",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "member": "_inclinations",
+                    "name": "inclinations",
+                    "notify": "inclinationsChanged",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QList<qreal>",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "PlanetData",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "massesChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "distancesChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "radiiChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "rotationalPeriodsChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "orbitalPeriodsChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "eccentricitiesChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "inclinationsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "planetdata.h",
+    "outputRevision": 68
+}

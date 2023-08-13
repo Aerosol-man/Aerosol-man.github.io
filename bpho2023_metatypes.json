@@ -1,0 +1,728 @@
+[
+    {
+    },
+    {
+        "classes": [
+            {
+                "className": "AngleIntegrator",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            },
+                            {
+                                "name": "periods",
+                                "type": "int"
+                            },
+                            {
+                                "name": "simpify",
+                                "type": "bool"
+                            }
+                        ],
+                        "name": "fromPlanet",
+                        "returnType": "QList<QVector2D>"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            },
+                            {
+                                "name": "periods",
+                                "type": "int"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "fromPlanet",
+                        "returnType": "QList<QVector2D>"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "fromPlanet",
+                        "returnType": "QList<QVector2D>"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "period",
+                                "type": "double"
+                            },
+                            {
+                                "name": "ecc",
+                                "type": "double"
+                            },
+                            {
+                                "name": "periods",
+                                "type": "int"
+                            },
+                            {
+                                "name": "simplify",
+                                "type": "bool"
+                            }
+                        ],
+                        "name": "fromValues",
+                        "returnType": "QList<QVector2D>"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "period",
+                                "type": "double"
+                            },
+                            {
+                                "name": "ecc",
+                                "type": "double"
+                            },
+                            {
+                                "name": "periods",
+                                "type": "int"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "fromValues",
+                        "returnType": "QList<QVector2D>"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "period",
+                                "type": "double"
+                            },
+                            {
+                                "name": "ecc",
+                                "type": "double"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "fromValues",
+                        "returnType": "QList<QVector2D>"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "AngleIntegrator",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "angleintegrator.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "LineGenerator",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "p1",
+                                "type": "int"
+                            },
+                            {
+                                "name": "p2",
+                                "type": "int"
+                            },
+                            {
+                                "name": "periods",
+                                "type": "int"
+                            },
+                            {
+                                "name": "samples",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "lines",
+                        "returnType": "QList<QVector4D>"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "LineGenerator",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "linegenerator.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Orbits",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            },
+                            {
+                                "name": "numSamples",
+                                "type": "int"
+                            },
+                            {
+                                "name": "simplify",
+                                "type": "bool"
+                            }
+                        ],
+                        "name": "getOrbit",
+                        "returnType": "QList<QVector2D>"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            },
+                            {
+                                "name": "numSamples",
+                                "type": "int"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "getOrbit",
+                        "returnType": "QList<QVector2D>"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "getOrbit",
+                        "returnType": "QList<QVector2D>"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            },
+                            {
+                                "name": "numSamples",
+                                "type": "int"
+                            },
+                            {
+                                "name": "simplify",
+                                "type": "bool"
+                            }
+                        ],
+                        "name": "getOrbit3D",
+                        "returnType": "QList<QVector3D>"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            },
+                            {
+                                "name": "numSamples",
+                                "type": "int"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "getOrbit3D",
+                        "returnType": "QList<QVector3D>"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "getOrbit3D",
+                        "returnType": "QList<QVector3D>"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "getMaxDisplacement",
+                        "returnType": "QVector2D"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "theta",
+                                "type": "double"
+                            },
+                            {
+                                "name": "planet",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "displacementAt",
+                        "returnType": "QVector2D"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "theta",
+                                "type": "double"
+                            },
+                            {
+                                "name": "planet",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "displacementAt3D",
+                        "returnType": "QVector3D"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "getMaxDisplacement3D",
+                        "returnType": "QVector3D"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "Orbits",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "orbits.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "PlanetData",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "getMax",
+                        "returnType": "qreal"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "member": "_masses",
+                        "name": "masses",
+                        "notify": "massesChanged",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QList<qreal>",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "member": "_distances",
+                        "name": "distances",
+                        "notify": "distancesChanged",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QList<qreal>",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "member": "_radii",
+                        "name": "radii",
+                        "notify": "radiiChanged",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QList<qreal>",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "member": "_rotationalPeriods",
+                        "name": "rotationalPeriods",
+                        "notify": "rotationalPeriodsChanged",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QList<qreal>",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "member": "_orbitalPeriods",
+                        "name": "orbitalPeriods",
+                        "notify": "orbitalPeriodsChanged",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QList<qreal>",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "member": "_eccentricities",
+                        "name": "eccentricities",
+                        "notify": "eccentricitiesChanged",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QList<qreal>",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "member": "_inclinations",
+                        "name": "inclinations",
+                        "notify": "inclinationsChanged",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QList<qreal>",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "PlanetData",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "massesChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "distancesChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "radiiChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "rotationalPeriodsChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "orbitalPeriodsChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "eccentricitiesChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "inclinationsChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "planetdata.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Ptolemy",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            },
+                            {
+                                "name": "numSamples",
+                                "type": "int"
+                            },
+                            {
+                                "name": "simplify",
+                                "type": "bool"
+                            }
+                        ],
+                        "name": "getOrbit",
+                        "returnType": "QList<QVector2D>"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            },
+                            {
+                                "name": "numSamples",
+                                "type": "int"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "getOrbit",
+                        "returnType": "QList<QVector2D>"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "getOrbit",
+                        "returnType": "QList<QVector2D>"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            },
+                            {
+                                "name": "numSamples",
+                                "type": "int"
+                            },
+                            {
+                                "name": "periods",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "cacheOrbit",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            },
+                            {
+                                "name": "numSamples",
+                                "type": "int"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "cacheOrbit",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "cacheOrbit",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "Ptolemy",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "ptolemy.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Simulator",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "mass",
+                                "type": "double"
+                            },
+                            {
+                                "name": "position",
+                                "type": "QVector2D"
+                            }
+                        ],
+                        "name": "addBody",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "mass",
+                                "type": "double"
+                            },
+                            {
+                                "name": "position",
+                                "type": "QVector2D"
+                            },
+                            {
+                                "name": "velocity",
+                                "type": "QVector2D"
+                            }
+                        ],
+                        "name": "addBody",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "removeBody",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getPositions",
+                        "returnType": "QList<QVector2D>"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getMasses",
+                        "returnType": "QList<double>"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "dt",
+                                "type": "double"
+                            },
+                            {
+                                "name": "subSteps",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "updatePositions",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "dt",
+                                "type": "double"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "updatePositions",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "reset",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "Simulator",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "simulator.h",
+        "outputRevision": 68
+    }
+]
